@@ -13,7 +13,7 @@ class ZhiHu(object):
 
     def __init__(self):
         self.timestamp = int(time.time() * 1000)
-        self.username = ''  # 账号
+        self.phone = ''  # 账号
         self.password = ''  # 密码
         self.username = 'sergiojune'  # 用户名，用于验证登陆
         self.headers = {
@@ -64,7 +64,7 @@ class ZhiHu(object):
     def get_form_data(self, signature, captcha):
         text = "client_id=c3cef7c66a1843f8b3a9e6a1e3160e20&grant_type=password&timestamp={0}&" \
                "source=com.zhihu.web&signature={1}&username=%2B86{2}&password={3}&" \
-               "captcha={4}&lang=cn&ref_source=homepage&utm_source=".format(self.timestamp, signature, self.username, self.password, captcha)
+               "captcha={4}&lang=cn&ref_source=homepage&utm_source=".format(self.timestamp, signature, self.phone, self.password, captcha)
         ctx = execjs.compile(self.encry_js)
         encry = ctx.call('Q', text)
         return encry
