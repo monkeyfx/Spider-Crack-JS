@@ -14,8 +14,10 @@
 2019-3-18日更新Incapsula-CDN 的一个 cookie 反爬破解
 
 2019-3-18日更新努比亚论坛的cookie 获取 acw_sc__v2 值 
+>破解思路详情点击→ [努比亚论坛的cookie 获取 acw_sc__v2 值](https://mp.weixin.qq.com/s/MLjyLP-z8OYBgg48gj-pDA)
 
 2019-3-18日更新拼多多的 anti_content 加密参数
+>破解思路详情点击→ [拼多多的 anti_content 加密参数](https://mp.weixin.qq.com/s/h_IIcaREB1z1S__elMGuNg)
 
 2019-3-11日更新豆瓣读书搜索页的window.__DATA__的解密
 >破解思路详情点击→ [豆瓣读书搜索页的window.__DATA__的解密](https://mp.weixin.qq.com/s/2mpu_oY2-M0wcLvf1eU7Sw)
