@@ -11,6 +11,9 @@
 
 
 ### 破解的网站汇合
+
+2019-4-3日更新Last-Event-ID 的cookie 获取
+
 2019-3-18日更新Incapsula-CDN 的一个 cookie 反爬破解
 
 2019-3-18日更新努比亚论坛的cookie 获取 acw_sc__v2 值 
