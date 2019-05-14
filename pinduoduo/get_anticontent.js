@@ -1066,9 +1066,8 @@ function get_anti(href) {
 
 
 
-    var cookie = "api_uid=rBRclFyNDnA+S2OCBCLdAg==; ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3626.121%20Safari%2F537.36; _nano_fp=XpdyX5mYl0gYnqmYnT_pjB~4~~jzfH~HmJetrHlv; msec=1800000; webp=1; rec_list_index=rec_list_index_eywTBe"
     var cookies = {};
-
+    var cookie = '';
 
     function i(e) {
         return (i = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
@@ -1647,7 +1646,7 @@ function get_anti(href) {
                 a.setTime(n.fbRJM(a.getTime(), n.frmUV(n.hEtyF(n.Ldquo(n.WyIat(r, 24), 60), 60), 1e3))),
                     o = n.QoVaK(n.BFRDf, a.toUTCString())
             }
-            y[h][d] = n.QoVaK(n.QoVaK(n.QoVaK(n.rwfOE(e, "="), n.dGuIE(t, "")), o), n.JZtat)
+            cookie = n.QoVaK(n.QoVaK(n.QoVaK(n.rwfOE(e, "="), n.dGuIE(t, "")), o), n.JZtat)
         }
             ,
             b[u("0x9", "lO!]")] = function(e) {
@@ -1677,7 +1676,7 @@ function get_anti(href) {
             ,
             b[u("0xb", "(B![")] = function(e) {
                 return e = "_" + e,
-                    n
+                    null
             };
 
         function g(e) {
@@ -2213,4 +2212,4 @@ function get_anti(href) {
     return e[p("0xd2", "jLF%")](Z);
 }
 
-console.log(get_anti('http://yangkeduo.com/search_result.html?search_key=%E6%83%85%E4%BE%A3%E8%A1%A3%E6%9C%8D'))
+console.log(get_anti('http://yangkeduo.com/search_result.html?search_key=%E6%83%85%E4%BE%A3%E8%A1%A3%E6%9C%8D'));
